@@ -1,0 +1,15 @@
+- image: img/product/1.jpg
+  category: 様々な視点で旅を閲覧！
+  description: 時間軸、コレクションタグ、地図、カレンダーなどから旅を振り返ることができます。
+- image: img/product/2.jpg
+  category: カレンダー
+  description: カレンダーで旅の滞在地や期間、そこでの出来事などが一覧できます。
+- image: img/product/3.jpg
+  category: 地図
+  description: 旅先の地図と、そこでの出来事を組み合わせて見ることができます。「あの時、そこで、何が起きたか」がひと目でわかります。
+- image: img/product/4.jpg
+  category: コレクション
+  description: お土産、食事、あとで調べたいこと、なんでもコレクションタグをつけておき一覧表示できます。旅先の思い出を簡単に探すことができます。
+- image: img/product/5.jpg
+  category: クイックアクセス
+  description: 旅程、パスポート、宿の連絡先など、旅先で必要な情報はすぐに取り出してみることができます。
