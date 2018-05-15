@@ -1,0 +1,38 @@
+appname: "Tabiji - 旅の記録アプリ"
+catchcopy: 旅の思い出を<br/>もっと楽に、もっと楽しく。<br/>旅を通じて人生を豊かに。
+vision: ビジョン
+concept: Tabijiはより旅を楽しんでもらう、旅に集中してもらうことを目指している旅の記録アプリです。
+  自分の旅をより大切にしてもらいたいから、あえてSNSライクなアプリにはしません。
+  自分の旅をより記憶してもらいたいから、全自動にはしません。
+  ただし、面倒なことはTabijiが担当します。
+  その余った時間で、旅から帰った後の自分のために記録を残しませんか？
+  スマホばかりを見る旅ではなく、実際の旅先を見て、感じて欲しい。<br>そんなことを願って企画開発しています。
+feature: 特長  
+
+features:
+  - title: 写真からタイムライン作成
+    description: "写真を撮影するだけで旅のタイムラインができる！もちろんコメントも書ける！"
+    icon: fa-photo
+  - title: 旅のマルチビュー
+    description: タイムライン、地図、タグ、など様々な視点から旅を振り返ってみれる！
+    icon: fa-bullseye
+  - title: オフライン編集
+    description: 電波が届かない場所でもオフライン編集ができ、電波が届く場所に到着したら自動的に更新！
+    icon: fa-wifi
+
+products:
+  - image: img/product/1.png
+    category: 様々な視点で旅を閲覧！
+    description: 時間軸、コレクションタグ、地図、カレンダーなどから旅を振り返ることができます。
+  - image: img/product/2.png
+    category: カレンダー
+    description: カレンダーで旅の滞在地や期間、そこでの出来事などが一覧できます。
+  - image: img/product/3.png
+    category: 地図
+    description: 旅先の地図と、そこでの出来事を組み合わせて見ることができます。「あの時、そこで、何が起きたか」がひと目でわかります。
+  - image: img/product/4.png
+    category: コレクション
+    description: お土産、食事、あとで調べたいこと、なんでもコレクションタグをつけておき一覧表示できます。旅先の思い出を簡単に探すことができます。
+  - image: img/product/5.png
+    category: クイックアクセス
+    description: 旅程、パスポート、宿の連絡先など、旅先で必要な情報はすぐに取り出してみることができます。
