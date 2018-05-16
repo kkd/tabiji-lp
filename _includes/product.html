@@ -1,7 +1,7 @@
 <section class="no-padding" id="product">
     <div class="container-fluid">
         <div class="row no-gutter">
-            {% for product in site.data.products %}            
+            {% for product in site.translations[site.lang]["products"] %}            
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
                         <img src="{{ product.image }}" class="img-responsive" alt="">

@@ -1,0 +1,34 @@
+appname: "Tabiji - Travel Journal App"
+catchcopy: "To make traveling memories easier, delightful. Enrich your life through traveling."
+vision: Vision
+concept: "Tabiji (tabiji is Japanese, '旅'(tabi) means jouney, '路'(ji) means 'the way') is a journey recording app aiming to make traveling more enjoyable, focusing on traveling.  Because I want to make my travel more valuable, I will not dare to use SNS like applications. I do not fully automate because I would like to have my journey memorized more.  However, Tabiji is responsible for troublesome things.  Why do not you leave a record for yourself after returning home from the extra time?  It is not a trip to see just the smartphone, but I want you to look at the actual travel destination and feel it. <br> We plan and develop such a thing in hope."
+feature: Feature  
+features:
+  - title: "Generated Timeline from photo"
+    description: "Just shoot a picture to make a timeline for the trip! Of course you can write comments!"
+    icon: fa-photo
+  - title: "Multi-views of travel"
+    description: "Look back on the trip from various perspectives such as timeline, map, tags, etc.!"
+    icon: fa-bullseye
+  - title: "Collection"
+    description: "You can record various memories of travel as collection tag, so you find it quickly!"
+    icon: fa-tags
+  - title: "Offline editing"
+    description: "Offline editing is possible even in places where wifi do not reach, it automatically updates when you arrive where wifi reach!"
+    icon: fa-wifi 
+products:
+  - image: img/product/1.png
+    category: "Timeline View"
+    description: "You can look back on your journey from the time axis, collection tag, map, calendar etc."
+  - image: img/product/2.png
+    category: "Calendar View"
+    description: "The calendar allows you to list the locations and duration of the trip, the events there and so on."
+  - image: img/product/3.png
+    category: "Map View"
+    description: "You can see a combination of traveling maps and events there. At that time, there you can see what happened at a glance."
+  - image: img/product/4.png
+    category: "Collection　View"
+    description: "Souvenirs, meals, things you want to check later, you can attach any collection tags and list them. You can easily find memories of your trip."
+  - image: img/product/5.png
+    category: "Quick Access View"
+    description: "You can quickly retrieve the necessary information at the travel destination, such as itinerary, passport, lodging contact information."
