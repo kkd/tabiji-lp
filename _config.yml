@@ -7,6 +7,10 @@ url: "" # the base hostname & protocol for your site
 
 languages: ["ja", "en"]
 #languages: ["en", "ja"]
+
+# Github上の公開用のディレクトリを指定
+destination:     ./docs
+
 exclude_from_localizations: ["javascript", "images", "css"]
 
 twitter_username:
