@@ -1,6 +1,17 @@
 # tabiji-lp
 Tabijiのランディングページです。
 
+# 公開手順
+
+Github Pagesの設定で、ソースを"master branch /docs folder" を選択すると、docsフォルダ以下を公開するようになります。
+
+以降は以下の手順で変更を反映します。
+
+1. ファイルを変更する
+2. ローカルで確認する
+3. 変更ファイルおよびdocsフォルダをコミット＆プッシュする
+4. Githu Pages上で確認する
+
 # i18n対応概要
 
 [jekyll-multiple-language-plugin](https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin#51-translating-strings)を使っています
