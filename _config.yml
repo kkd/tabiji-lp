@@ -2,8 +2,8 @@
 title: Tabiji
 email:
 description: ENRICH YOUR LIFE THROUGH YOUR TRAVEL
-baseurl: ""
-# baseurl: "https://daichancorgi.github.io/tabiji-lp" # the subpath of your site, e.g. /blog/
+# baseurl: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # default language is english.
@@ -14,7 +14,6 @@ destination:  docs
 
 # i18nの対象外ディレクトリ
 exclude_from_localizations: [
-  "js", "css", "font-awesome", "fonts",
   "Rakefile", "README.md", "Gemfile", "docs"
 ]
 

@@ -10,7 +10,12 @@ YamlLint::RakeTask.new do |t|
     )
 end
 
-desc "build HTML from jekyll files."
+desc "build HTML from jekyll files for local."
+task :build => :clean do
+  sh "jekyll build"
+end
+
+desc "build HTML from jekyll files for production."
 task :build_production => :clean do
   sh "env JEKYLL_ENV=production jekyll build"
 end
