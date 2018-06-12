@@ -1,3 +1,14 @@
+global:
+  tagline: English
+  about: About
+  features: Features
+  product: Product
+  contact: Contact
+  twitter: Twitter
+langs:
+  en: English
+  ja: Japanese
+
 appname: "Tabiji - Travel Journal App"
 catchcopy: "To make traveling memories easier, delightful. Enrich your life through traveling."
 vision: Vision

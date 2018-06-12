@@ -1,3 +1,15 @@
+global:
+  tagline: English
+  about: Tabijiとは
+  features: 特長
+  product: 製品
+  contact: 連絡先
+  twitter: Twitter
+langs:
+  en: 英語
+  ja: 日本語
+
+
 appname: "Tabiji - 旅の記録アプリ"
 catchcopy: 旅の思い出をもっと楽に、もっと楽しく。旅を通じて人生を豊かに。
 vision: ビジョン
@@ -16,6 +28,9 @@ features:
   - title: 旅のマルチビュー
     description: タイムライン、地図、タグ、など様々な視点から旅を振り返ってみれる！
     icon: fa-bullseye
+  - title: "コレクション"
+    description: "旅の様々な思い出の写真は、タグを使ってコレクションに追加して簡単に見つけて思い出に浸れる！"
+    icon: fa-tags
   - title: オフライン編集
     description: 電波が届かない場所でもオフライン編集ができ、電波が届く場所に到着したら自動的に更新！
     icon: fa-wifi

@@ -15,17 +15,37 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">{% t global.about %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">Features</a>
+                    <a class="page-scroll" href="#features">{% t global.features %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#product">Product</a>
+                    <a class="page-scroll" href="#product">{% t global.product %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">{% t global.contact %}</a>
                 </li>
+            {% for lang in site.languages %}
+                {% unless site.lang == lang %}
+                {% if lang == site.default_lang %}
+                <li>
+                    <a class="page-scroll" href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+                </li>
+                {% else %}
+                <li>
+                    <a class="page-scroll" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+                </li>
+                {% endif %}
+                
+                {% assign next = forloop.index | plus: 1 %}
+                <li>
+                {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+                    <span class="separator"> &bull; </span>
+                {% endif %}
+                {% endunless %}
+                </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
