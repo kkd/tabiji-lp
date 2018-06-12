@@ -17,7 +17,7 @@ end
 
 desc "build HTML from jekyll files for production."
 task :build_production => :clean do
-  sh "env JEKYLL_ENV=production jekyll build"
+  sh "env JEKYLL_ENV=production jekyll build --baseurl /tabiji-lp"
 end
 
 desc "push files to origin/master."
