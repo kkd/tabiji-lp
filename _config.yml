@@ -3,7 +3,7 @@ title: Tabiji
 email:
 description: ENRICH YOUR LIFE THROUGH YOUR TRAVEL
 # baseurl: ""
-baseurl: "/tabiji-lp" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # default language is english.
